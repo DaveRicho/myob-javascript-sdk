@@ -56,7 +56,7 @@ export default class Client {
   getHeaders(root = false) {
     const headers = {
       'x-myobapi-version': 'v2',
-      'User-Agent': `Ordermentum MYOB Client ${pack.version}`,
+      'User-Agent': `SWA MYOB Client ${pack.version}`,
     };
 
     if (this.clientId) {
